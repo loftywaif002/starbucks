@@ -80,6 +80,7 @@ public class CommandPatternTest
         // Select Menu "D"
  
         // Assertion 
+        System.out.println(app.screen());      
         assertEquals("Store", app.screen());            
     }
 
